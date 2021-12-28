@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.testng.Transformer"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.Mini_Project_Mvn01.Testng_Runner_Class">
+        <methods>
+          <include name="tshirts"/>
+          <include name="signin"/>
+          <include name="checkout"/>
+          <include name="close"/>
+          <include name="Browser"/>
+        </methods>
+      </class> <!-- org.Mini_Project_Mvn01.Testng_Runner_Class -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
